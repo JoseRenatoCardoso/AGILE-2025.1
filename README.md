@@ -5,16 +5,17 @@
 AS63C - N13 - Desenvolvimento Ágil - 2025.1<br>
 
 <h1>INTEGRANTES:</h1>
-[Gabriel de Almeida Soares Janscoki](https://github.com/Midvirus)<br>
-[José Renato Cardoso de Campos](https://github.com/JoseRenatoCardoso)<br>
-[Lara Englerth de Camargo](https://github.com/LaraEnglerth)<br>
-[Nathaniel Pereira Utida](https://github.com/NanatUtida)<br>
-[William Eidi Yamaguchi](https://github.com/SoulStorm0)<br>
+<ul>
+  <li><a href="https://github.com/Midvirus">Gabriel de Almeida Soares Janscoki</a></li>
+  <li><a href="https://github.com/JoseRenatoCardoso">José Renato Cardoso de Campos</a></li>
+  <li><a href="https://github.com/LaraEnglerth">Lara Englerth de Camargo</a></li>
+  <li><a href="https://github.com/NanatUtida">Nathaniel Pereira Utida</a></li>
+  <li><a href="https://github.com/SoulStorm0">William Eidi Yamaguchi</a></li>
+</ul>
 
 Sistema Web de controle de produtos, doações e estoque do projeto Bons Fluídos.<br>
 
-<h1>SUMARIO:</h1>
-<h2>Requesitos Não Funcionais</h2>
-<ol>[Assets/Imagens](https://github.com/JoseRenatoCardoso/AGILE-2025.1/tree/main/assets/images)</ol>
-<h2>Requesitos Funcionais</h2>
-<ol></ol>
+<h1>SUMÁRIO:</h1>
+<h2>Requisitos Não Funcionais</h2>
+<a href="https://github.com/JoseRenatoCardoso/AGILE-2025.1/tree/main/assets/images">Assets/Imagens</a>
+<h2>Requisitos Funcionais</h2>
