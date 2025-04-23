@@ -5,12 +5,14 @@
 AS63C - N13 - Desenvolvimento Ágil - 2025.1<br>
 
 <h1>INTEGRANTES:</h1>
-[Gabriel de Almeida Soares Janscoki](https://github.com/Midvirus)<br>
-[José Renato Cardoso de Campos](https://github.com/JoseRenatoCardoso)<br>
-[Lara Englerth de Camargo](https://github.com/LaraEnglerth)<br>
-[Nathaniel Pereira Utida](https://github.com/NanatUtida)<br>
-[William Eidi Yamaguchi](https://github.com/SoulStorm0)<br>
+<a src="https://github.com/Midvirus">Gabriel de Almeida Soares Janscoki</a><br>
+<a src="https://github.com/JoseRenatoCardoso">José Renato Cardoso de Campos</a><br>
+<a src="https://github.com/LaraEnglerth">Lara Englerth de Camargo</a><br>
+<a src="https://github.com/NanatUtida">Nathaniel Pereira Utida</a><br>
+<a src="https://github.com/SoulStorm0">William Eidi Yamaguchi</a><br>
 
+<br>
+<h1>OBJETIVO:</h1>
 Sistema Web de controle de produtos, doações e estoque do projeto Bons Fluídos.<br>
 
 <h1>SUMARIO:</h1>
