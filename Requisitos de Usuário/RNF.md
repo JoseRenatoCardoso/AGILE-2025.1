@@ -4,11 +4,11 @@
 
 | ID   |                                 Requisito NF                              | Categoria/Tipo | Prioridade | Requisitos Relacionados |
 | :--: | :-----------------------------------------------------------------------: |:-------------: | :--------: | :-----------------: |
-| RF01 |  O usuário deve ser capaz de verificar um produto em estoque com apenas uma busca | Produto/Usabilidade               |Média       |    -             |
-| RF02 |  O sistema deve estar disponivel para os navegadores mais utilizados (Google Chrome/Mozilla Firefox/Microsoft Edge/Safari)    |  Compatibilidade     |Baixa        |    -              |
-| RF03 |  A interface deve ser responsiva, adaptando-se a diferentes tamanhos de tela (desktop, tablet e mobile).              |  Usabilidade      |Alta      |     -               |
-| RF04 |  O sistema deve implementar autenticação baseada em login e senha              |  Segurança      |Alta      |     -               |
-| RF05 |  O tempo de resposta para qualquer operação não deve exceder 2 segundos em condições normais de uso.              |  Desempenho      |Baixa      |     -               |
+| RNF01 |  O usuário deve ser capaz de verificar um produto em estoque com apenas uma busca | Produto/Usabilidade               |Média       |    -             |
+| RNF02 |  O sistema deve estar disponivel para os navegadores mais utilizados (Google Chrome/Mozilla Firefox/Microsoft Edge/Safari)    |  Compatibilidade     |Baixa        |    -              |
+| RNF03 |  A interface deve ser responsiva, adaptando-se a diferentes tamanhos de tela (desktop, tablet e mobile).              |  Usabilidade      |Alta      |     -               |
+| RNF04 |  O sistema deve implementar autenticação baseada em login e senha              |  Segurança      |Alta      |     -               |
+| RNF05 |  O tempo de resposta para qualquer operação não deve exceder 2 segundos em condições normais de uso.              |  Desempenho      |Baixa      |     -               |
 
 <div style="text-align: center">
 <p>Tabela 2: Requisitos Não Funcionais</p>
