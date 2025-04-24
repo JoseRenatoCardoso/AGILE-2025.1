@@ -4,11 +4,11 @@
 
 | ID   |                                 Requisito                                 | Prioridade | Requisitos Relacionados |
 | :--: | :-----------------------------------------------------------------------: | :--------: | :---------------------: |
-| RF01 |           O software deve permitir ao usuário a criar produtos.           |  Alta      |           --            |
-| RF02 |          O software deve permitir ao usuário a deletar produtos.          |  Baixa     |           --            |
-| RF03 |         O software deve permitir ao usuário a modificar produtos.         |  Media     |           --            |
-| RF04 |     O software deve permitir ao usuário a buscar e visualizar produtos.   |  Media     |           --            |
-| RF05 |      O software deve permitir ao administrador a gerenciar o estoque.     |  Alta      |           --            |
+| RF01 |          O software deve permitir ao usuário cadastrar produtos.          |  Alta      |           --            |
+| RF02 |           O software deve permitir ao usuário deletar produtos.           |  Baixa     |           --            |
+| RF03 |          O software deve permitir ao usuário modificar produtos.          |  Media     |           --            |
+| RF04 |      O software deve permitir ao usuário buscar e visualizar produtos.    |  Media     |           --            |
+| RF05 |       O software deve permitir ao administrador gerenciar o estoque.      |  Baixa     |           --            |
 
 <div style="text-align: center">
 <p>Tabela 1: Requisitos Funcionais</p>
