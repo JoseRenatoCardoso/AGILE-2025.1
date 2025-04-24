@@ -9,7 +9,6 @@
 | RF03 |         O software deve permitir ao usuário a modificar produtos.         |  Alta      |           --            |
 | RF04 |     O software deve permitir ao usuário a buscar e visualizar produtos.   |  Alta      |           --            |
 | RF05 |      O software deve permitir ao administrador a gerenciar o estoque.     |  Alta      |           --            |
-| :--: | :-----------------------------------------------------------------------: | :--------: | :---------------------: |
 
 <div style="text-align: center">
 <p>Tabela 1: Requisitos Funcionais</p>
