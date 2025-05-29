@@ -63,6 +63,38 @@ A Tabela 3 a seguir contém as Histórias de Usuárias elicitadas.
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF05</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">3</td>
         </tr>
+            <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US07</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como usuário comum, quero visualizar a lista de produtos disponíveis no estoque para saber o que está disponível para doação.</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"><ol><li>Deve ser possível acessar uma página com a listagem de todos os produtos em estoque.</li><li>A listagem deve mostrar informações básicas: nome, quantidade disponível, descrição e categoria do produto.</li><li>A listagem deve ser atualizada em tempo real conforme o estoque é alterado.</li></ol></td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Alta</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF05</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">3</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US08</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como usuário comum, quero verificar informações dos donatários para acompanhar para quem as doações foram destinadas.</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"><ol><li>Deve existir uma área/página para visualizar o histórico de donatários.</li><li>As informações devem incluir nome do donatário, data da doação e produtos recebidos.</li><li>O usuário não poderá editar ou remover informações de donatários.</li></ol></td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Média</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF06</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">2</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US09</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como administrador de estoque, quero adicionar novos produtos ao sistema para manter o controle atualizado do que está disponível para doação.</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"><ol><li>Deve haver um formulário para cadastro de novos produtos, incluindo nome, descrição, categoria e quantidade.</li><li>Após o cadastro, o produto deve aparecer imediatamente na listagem de produtos.</li><li>O sistema deve validar campos obrigatórios e impedir o cadastro em caso de informações incompletas.</li></ol></td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Alta</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF01</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">3</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US10</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como administrador de estoque, quero remover produtos do estoque quando forem doados ou inutilizados para manter o inventário correto.</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"><ol><li>Deve ser possível selecionar e remover um produto da listagem.</li><li>Ao remover um produto, o sistema deve solicitar confirmação da ação.</li><li>O histórico de remoção deve registrar quem realizou a ação, data e motivo da remoção.</li></ol></td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Alta</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF03</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">3</td>
+        </tr>
     </tbody>
 </table>
 <div style="text-align: center">
