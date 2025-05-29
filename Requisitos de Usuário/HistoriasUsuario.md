@@ -1,11 +1,8 @@
-
-# 1. História de Usuário
-
-A Tabela 3 a seguir contém as Histórias de Usuárias elicitadas. 
-
+1. História de Usuário
+A Tabela 3 a seguir contém as Histórias de Usuárias elicitadas.
 <table>
     <thead>
-        <tr style="background-color: purple; color: white" >
+        <tr style="background-color: purple; color: white">
             <th style="border-style:solid;border-width:1px;text-align:center">ID</th>
             <th style="border-style:solid;border-width:1px;text-align:center">História de Usuário</th>
             <th style="border-style:solid;border-width:1px;text-align:center">Critérios de aceitação</th>
@@ -17,35 +14,57 @@ A Tabela 3 a seguir contém as Histórias de Usuárias elicitadas.
     <tbody>
         <tr>
             <span id="ustory-01"></span>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="1">US01</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="1">Como gerente, quero monitorar os níveis de produtos em tempo real, para assegurar que temos suprimentos adequados para nossas operações.</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="1"><ol><li>A interface deve exibir uma lista de produtos com suas quantidades atualizadas em tempo real.</li><li>  O nível de estoque deve automaticamente ser ajustado conforme as doações são realizadas.</li></ol></td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US01</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como gerente, quero visualizar uma lista de produtos em tempo real para assegurar suprimentos adequados.</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"><ol><li>A interface deve exibir uma lista de produtos com suas quantidades atualizadas.</li><li>Os dados devem ser atualizados a cada 5 segundos.</li><li>A lista deve ser clara e ordenável por nome e quantidade.</li></ol></td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Baixa</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF05</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">7 </td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">3</td>
         </tr>
         <tr>
             <span id="ustory-01"></span>
-           <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="1">US02</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="1">Eu, como Apoiador do projeto de extensão Bons Fluidos, quero conseguir criar, modificar, excluir e vizualizar produtos/doações, para possibilitar o gerenciamneto e controle do estoque e doações</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="1"><ol><li>A vizualização deve ser fácil e intuitiva</li><li>As ações, como criar, excluir e modificar, devem ser claras e objetivas</li><li>Não deve haver conflitos dos dados ao execultar alguma ação</li></ol></td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Alta </td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF01, RF02, RF03, RF04 </td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">5 </td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US02</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como gerente, quero criar novos produtos/doações para possibilitar o gerenciamento do estoque.</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"><ol><li>As ações de criação devem ser claras e intuitivas.</li><li>Deve haver uma validação para campos obrigatórios antes da criação.</li><li>Uma mensagem de confirmação deve ser exibida após a criação.</li></ol></td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Alta</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF01</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">2</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US03</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como gerente, quero modificar produtos/doações existentes para manter o controle do estoque.</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"><ol><li>As ações de modificação devem ser objetivas e sem conflitos.</li><li>A interface deve permitir a edição direta dos campos relevantes.</li></ol></td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Alta</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF02</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">3</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US04</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como gerente, quero excluir produtos/doações para possibilitar o controle do estoque e evitar excessos.</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"><ol><li>Exclusão deve ser clara sem conflito de dados.</li><li>Deve haver uma confirmação antes da exclusão final.</li></ol></td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Alta</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF03</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">2</td>
         </tr>
         <tr>
             <span id="ustory-01"></span>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="1">US03</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="1">Como gerente do projeto quero visualizar uma lista com os doadores e donatário, para manter registrado os colaboradores do projeto.</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="1"><ol><li>Deve ser possivel organizar os nomes em ordem alfabética e por tempo.</li><li> O sistema deve permitir a pesquisa por nome.</li></ol></td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US05</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como gerente, quero visualizar uma lista de doadores para manter registrado os colaboradores do projeto.</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"><ol><li>Deve ser possível organizar os nomes em ordem alfabética.</li><li>A lista deve exibir datas de contribuição com formato consistente.</li></ol></td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Média</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF04, RF05</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">3 </td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF04</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">4</td>
         </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US06</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como gerente, quero pesquisar doadores pelo nome para acessá-los rapidamente.</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"><ol><li>O sistema deve permitir a pesquisa por nome.</li><li>A pesquisa deve ser rápida e mostrar resultados relevantes em no máximo 2 segundos.</li></ol></td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Média</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF05</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">3</td>
+        </tr>
+    </tbody>
 </table>
-
 <div style="text-align: center">
 <p>Tabela 3: História de Usuário</p>
 </div>
-
-## 5. Referências bibliográficas
