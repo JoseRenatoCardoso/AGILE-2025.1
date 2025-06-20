@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Item - Bons Fluidos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="styles1.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="https://cdn.prod.website-files.com/img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="https://cdn.prod.website-files.com/img/webclip.png">
+
+  <script>
+    !function(o,c){
+      var n=c.documentElement,t=" w-mod-";
+      n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")
+    }(window,document);
+  </script>
+</head>
+<body class="body">
+  <!-- Cabeçalho -->
+  <div class="w-layout-blockcontainer titulo w-container">
+    <div class="bons-fluidos">bons fluidos</div>
+  </div>
+
+  <!-- Navegação -->
+  <section class="div-nav">
+    <a href="../gerenciamento_estoque/gern.html" class="btn_estoque w-button">ESTOQUE</a>
+    <a href="../PAG 3/index.html?type=Doador" class="btn_doadores w-button">DOADORES</a>
+    <a href="../PAG 4/index.html?type=Donatário" class="btn_dona w-button">DONATÁRIOS</a>
+  </section>
+
+  <!-- Formulário -->
+  <section class="div_create">
+    <div class="w-layout-blockcontainer create_foto w-container">
+      <img src="https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="174" alt="" class="image-2">
+    </div>
+
+    <div class="w-layout-blockcontainer div_froms_create w-container">
+      <div class="w-form">
+        <form id="email-form" name="email-form" method="get">
+          <label for="name" class="lab_nome">Nome</label>
+          <input class="fil_nome w-input" maxlength="256" name="name" placeholder="Digite o nome do Produto" type="text" id="name">
+
+          <label for="marca" class="lab_marca">Marca</label>
+          <input class="fil_marca w-input" maxlength="256" name="marca" placeholder="Digite a marca do Produto" type="text" id="marca">
+
+          <label for="cod" class="lab_cod">Código de Barra</label>
+          <input class="fil_cod w-input" maxlength="256" name="cod" placeholder="Digite o codígo de barras do Produto" type="text" id="cod">
+
+          <label for="quant" class="lab_quant">Quantidade</label>
+          <input class="fil_quant w-input" maxlength="256" name="quant" placeholder="Digite a quantidade em estoque do Produto" type="number" id="quant" min="0">
+
+          <label for="desc" class="lab_desc">Descrição</label>
+          <input class="fil_desc w-input" maxlength="256" name="desc" placeholder="Digite a Descrição do Produto" type="text" id="desc">
+
+          <input type="submit" class="btn_adicionar w-button" value="ADICIONAR">
+        </form>
+
+        <div class="w-form-done">
+          <div>Obrigado! Seu item foi adicionado.</div>
+        </div>
+        <div class="w-form-fail">
+          <div>Algo deu errado. Tente novamente.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script type="module" src="../../Scripts/Create.js"></script>
+</body>
+</html>
