@@ -17,5 +17,10 @@ Sistema Web de controle de produtos, doações e estoque do projeto Bons Fluído
 
 <h1>SUMÁRIO:</h1>
 <h2>Requisitos Não Funcionais</h2>
-<a href="https://github.com/JoseRenatoCardoso/AGILE-2025.1/tree/main/assets/images">Assets/Imagens</a>
+
 <h2>Requisitos Funcionais</h2>
+
+<h2>SITE:<h2>
+
+<a href="https://joserenatocardoso.github.io/AGILE-2025.1/src/PAGINAS/gerenciamento_estoque/gern.html">Gerenciamento</a>
+
