@@ -1,19 +1,22 @@
-// utils.js
 import { getPessoa } from './DataBase.js';
 
 const params = new URLSearchParams(window.location.search);
 const type = params.get('type') || '';
 
-export async function renderPeopleItems(divCardSection) {
+export async function renderPeopleItems(divCardSection, termo = '') {
     divCardSection.innerHTML = '';
     const peopleItems = await getPessoa(type);
 
-    if (!peopleItems || peopleItems.length === 0) {
+    const filtradas = peopleItems.filter(pessoa =>
+        pessoa.nome.toLowerCase().includes(termo)
+    );
+
+    if (!filtradas || filtradas.length === 0) {
         divCardSection.innerHTML = '<p>Nenhuma pessoa cadastrada.</p>';
         return;
     }
 
-    peopleItems.forEach(pessoa => {
+    filtradas.forEach(pessoa => {
         const card = document.createElement('div');
         card.classList.add('div1_geren');
 
