@@ -1,19 +1,26 @@
 import { getStorage, updateData, deleteData } from './DataBase.js';
+import { configurarBusca } from './busca.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
     const divCardSection = document.querySelector('.div_card');
 
-    async function renderStorageItems() {
+    async function renderStorageItems(termo = '') {
         divCardSection.innerHTML = '';
 
         const storageItems = await getStorage();
 
-        if (storageItems.length === 0) {
+        const filtrados = storageItems.filter(item =>
+            item.nome?.toLowerCase().includes(termo) ||
+            item.marca?.toLowerCase().includes(termo) ||
+            item.desc?.toLowerCase().includes(termo)
+        );
+
+        if (filtrados.length === 0) {
             divCardSection.innerHTML = '<p>Nenhum item no estoque para exibir.</p>';
             return;
         }
 
-        storageItems.forEach(item => {
+        filtrados.forEach(item => {
             const formBlock = document.createElement('div');
             formBlock.className = 'form_block_geren w-form';
 
@@ -83,8 +90,17 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
     }
 
-    renderStorageItems();
+    // Renderização inicial
+    await renderStorageItems();
 
+    // Busca
+    configurarBusca({
+        aoBuscar: async (termo) => {
+            await renderStorageItems(termo);
+        }
+    });
+
+    // Modal de edição
     document.getElementById("form-editar-produto").addEventListener("submit", async function (e) {
         e.preventDefault();
 
@@ -98,7 +114,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         };
 
         await updateData("Produtos", produtoAtualizado.id, produtoAtualizado);
-
         fecharModalEditarProduto();
         await renderStorageItems();
     });
@@ -120,4 +135,3 @@ function fecharModalEditarProduto() {
 }
 
 window.fecharModalEditarProduto = fecharModalEditarProduto;
-
