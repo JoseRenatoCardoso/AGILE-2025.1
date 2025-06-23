@@ -12,8 +12,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const filtrados = storageItems.filter(item =>
             item.nome?.toLowerCase().includes(termo) ||
             item.marca?.toLowerCase().includes(termo) ||
-            item.desc?.toLowerCase().includes(termo) ||
-            item.data?.toLowerCase().includes(termo)
+            item.desc?.toLowerCase().includes(termo) 
         );
 
         if (filtrados.length === 0) {
