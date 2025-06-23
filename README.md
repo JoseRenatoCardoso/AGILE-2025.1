@@ -16,11 +16,6 @@ EC45G - C51 - Certificadora da Competência - 2025.1<br>
 
 Sistema Web de controle de produtos, doações e estoque do projeto Bons Fluídos.<br>
 
-<h1>SUMÁRIO:</h1>
-<h2>Requisitos Não Funcionais</h2>
-
-<h2>Requisitos Funcionais</h2>
-
 <h2>SITE:<h2>
 
 <a href="https://joserenatocardoso.github.io/AGILE-2025.1/src/PAGINAS/gerenciamento_estoque/gern.html">Gerenciamento</a>
