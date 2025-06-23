@@ -3,6 +3,7 @@
 <br>
 
 AS63C - N13 - Desenvolvimento Ágil - 2025.1<br>
+EC45G - C51 - Certificadora da Competência - 2025.1<br>
 
 <h1>INTEGRANTES:</h1>
 <ul>
