@@ -34,7 +34,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             form.innerHTML = `
                 <section class="div1_geren">
                     <section class="div_foto_nome">
-                        <img src="https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="48" alt="" class="image">
                         <label class="lab_nome_marca">${item.nome}</label>
                     </section>
                     <section class="div_btn_ed">
