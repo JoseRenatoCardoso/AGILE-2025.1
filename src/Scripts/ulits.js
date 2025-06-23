@@ -8,7 +8,8 @@ export async function renderPeopleItems(divCardSection, termo = '') {
     const peopleItems = await getPessoa(type);
 
     const filtradas = peopleItems.filter(pessoa =>
-        pessoa.nome.toLowerCase().includes(termo)
+        pessoa.nome.toLowerCase().includes(termo) ||
+        pessoa.data.toLowerCase().includes(termo)
     );
 
     if (!filtradas || filtradas.length === 0) {
